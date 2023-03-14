@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg  bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">alibaba</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="index.html">Accuille</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="nv-semaine.html">Nouveauté de la semaine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="Panier.html">Panier</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="my-3">Panier</h2>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Accuille</a></li>
+                <li class="breadcrumb-item"><a href="nv-semaine.html">Nouveauté de la semaine</a></li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table  table-striped">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Désignation</th>
+                            <th>Quatité</th>
+                            <th>Prix</th>
+                            <th>Total</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>
+                                <a href="images/1.jpg">
+                                    <img width="30" src="images/1.jpg" alt="">
+                                </a>
+                            </td>
+                            <td>Iphone 13 blue prox Max</td>
+                            <td>2</td>
+                            <td>14.000.00dh</td>
+                            <td>28.000.00DH</td>
+                            <td>
+                                <i class="bi bi-trash-fill text-danger"></i>
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                <a href="images/2.jpg">
+                                    <img width="30" src="images/2.jpg" alt="">
+                                </a>
+                            </td>
+                            <td>Iphone 12 Gold prox Max</td>
+                            <td>2</td>
+                            <td>12.000.00dh</td>
+                            <td>24.000.00DH</td>
+                            <td>
+                                <i class="bi bi-trash-fill text-danger"></i>
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                <a href="images/3.jpg">
+                                    <img width="30" src="images/3.jpg" alt="">
+                                </a>
+                            </td>
+                            <td>Imac rose</td>
+                            <td>1</td>
+                            <td>Imac rose 24 pouce </td>
+                            <td>24.000.00DH</td>
+                            <td>
+                                <i class="bi bi-trash-fill text-danger"></i>
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                <a href="images/8.jpg">
+                                    <img width="30" src="images/8.jpg" alt="">
+                                </a>
+                            </td>
+                            <td>Iphone xr</td>
+                            <td>1</td>
+                            <td>4646 DHs</td>
+                            <td>4646 DHs</td>
+                            <td>
+                                <i class="bi bi-trash-fill text-danger"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- panier -->
+            <!-- col -->
+            <div class="col-md-4">
+                <div class="p-3 bg-light">
+                    <ul class="list-group">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                        
+                            </div>
+                           
+
+
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="COUPON CODE">
+                                <button class="btn btn-dark">Appliquer</button>
+
+                            </div>
+
+
+
+
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                                Oder Summart
+                                <span class="badge bg-warning rounded-pill">150DH</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                                Discout
+                                <span class="badge bg-warning rounded-pill">20%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                                Subheading
+                                <span class="badge bg-warning rounded-pill">129.16DH</span>
+                            </li>
+                    </ul>
+                    <button class="btn btn-dark">Proced to checkout</button>
+
+                </div>
+            </div>
+            <!-- recap comande -->
+
+        </div>
+        <!-- row -->
+
+
+
+        <table class="table table border me-auto">
+
+
+        </table>
+    </main>
+    <!--.container class -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
