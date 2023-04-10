@@ -9,6 +9,8 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -47,10 +49,14 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Accuille</a></li>
                 <li class="breadcrumb-item"><a href="nv-semaine.html">Nouveauté de la semaine</a></li>
+                <li class="breadcrumb-item">Panier</li>
             </ol>
         </nav>
+
         <div class="row">
             <div class="col-md-8" data-aos="fade-right">
+                <h6>Articles</h6>
+
                 <table class="table  table-striped">
                     <thead>
                         <tr>
@@ -132,54 +138,44 @@
             <!-- panier -->
             <!-- col -->
             <div class="col-md-4" data-aos="fade-left">
+
+                <h6>Récapitulatif de votre commande</h6>
+
                 <div class="p-3 bg-light">
-                    <ul class="list-group">
-                        <form class="row g-3">
-                            <div class="col-md-6">
 
-                            </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="COUPON CODE">
+                        <button class="btn btn-danger">Appliquer</button>
+                    </div>
 
+                    <ul class="list-group mb-4">
 
-
-
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="COUPON CODE">
-                                <button class="btn btn-dark">Appliquer</button>
-
-                            </div>
-
-
-
-
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
-                                Oder Summart
-                                <span class="badge bg-danger rounded-pill">150DH</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
-                                Discout
-                                <span class="badge bg-danger rounded-pill">20%</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
-                                Subheading
-                                <span class="badge bg-danger rounded-pill">129.16DH</span>
-                            </li>
+                        <li class="fw-bold list-group-item d-flex justify-content-between align-items-center bg-light">
+                            Oder Summart
+                            <span class="badge bg-danger rounded-pill">150DH</span>
+                        </li>
+                        <li class="fw-bold list-group-item d-flex justify-content-between align-items-center bg-light">
+                            Discout
+                            <span class="badge bg-danger rounded-pill">20%</span>
+                        </li>
+                        <li class="fw-bold list-group-item d-flex justify-content-between align-items-center bg-light">
+                            Subheading
+                            <span class="badge bg-danger rounded-pill">129.16DH</span>
+                        </li>
                     </ul>
-                    <button class="btn btn-dark">Proced to checkout</button>
-                    <button class="btn btn-dark">Comfirmer la comende</button>
-
+                    <div class="text-center">
+                        <a href="proceed_checkout.html" class="btn btn-dark fw-bold rounded-pill w-100
+                                animate__animated animate__shakeX animate__infinite
+                                ">
+                            <i class="bi bi-credit-card"></i>
+                            Comfirmer la comende
+                        </a>
+                    </div>
                 </div>
             </div>
             <!-- recap comande -->
-
         </div>
         <!-- row -->
-
-
-
-        <table class="table table border me-auto">
-
-
-        </table>
     </main>
     <!--.container class -->
 
